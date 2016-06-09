@@ -19,7 +19,7 @@ import de.dfki.resc28.igraphstore.IGraphStore;
 public class FusekiGraphStore implements IGraphStore 
 {
 	//================================================================================
-    // Constructors
+	// Constructors
 	//================================================================================
 	
 	public FusekiGraphStore(final String dataServerURI, final String sparqlServerURI) 
@@ -70,7 +70,7 @@ public class FusekiGraphStore implements IGraphStore
 	}
 
 	//================================================================================
-    // CRUD-related methods for named graphs 
+	// CRUD-related methods for named graphs 
 	//================================================================================
 
 	/**
@@ -130,12 +130,12 @@ public class FusekiGraphStore implements IGraphStore
 
 
 	//================================================================================
-    // Query-related Methods
-    //================================================================================
+	// Query-related Methods
+	//================================================================================
 
 
 	//================================================================================
-    // Member variables
+	// Member variables
 	//================================================================================
 	
 	private String fDataServerURI;

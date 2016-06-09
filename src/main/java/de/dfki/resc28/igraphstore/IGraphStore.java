@@ -25,7 +25,7 @@ public interface IGraphStore
 
 
 	//================================================================================
-    // CRUD-related methods for named graphs 
+	// CRUD-related methods for named graphs 
 	//================================================================================
 
 	boolean containsNamedGraph(final String graphURI);
@@ -42,8 +42,8 @@ public interface IGraphStore
 
 
 	//================================================================================
-    // Query-related Methods
-    //================================================================================
+	// Query-related Methods
+	//================================================================================
 
 //	boolean ask(String queryString);
 //	
