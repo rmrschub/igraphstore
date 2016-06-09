@@ -14,7 +14,7 @@ and add a dependency to your project's pom.xml like this
 	<dependency>
 		<groupId>de.dfki.resc28</groupId>
 		<artifactId>igraphstore</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<version>0.1</version>
 	</dependency>
 
 Contributing
