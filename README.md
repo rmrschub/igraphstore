@@ -1,2 +1,23 @@
-# igraphstore
-A simple GraphStore interface and its implementation for Jena TDB and Jena Fuseki.
+IGraphStore
+=
+
+IGraphStore provides a CRUD-based interface for RDF datsets and comes with two implementations for Jena TDB and Jena Fuseki.
+
+Installation & Usage
+-
+Install IGraphStore to your local repository by typing
+
+	mvn clean install
+
+and add a dependency to your project's pom.xml like this
+
+	<dependency>
+		<groupId>de.dfki.resc28</groupId>
+		<artifactId>igraphstore</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</dependency>
+
+Contributing
+-
+
+Contributions are very welcome.

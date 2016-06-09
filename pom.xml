@@ -6,7 +6,7 @@
 	<groupId>de.dfki.resc28</groupId>
 	<artifactId>igraphstore</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>IGraphStore</name>
 	<url>https://github.com/rmrschub/igraphstore</url>
 	
