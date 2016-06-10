@@ -2,6 +2,12 @@
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+	<!--
+ 	 This file is part of IGraphStore. It is subject to the license terms in
+ 	 the LICENSE file found in the top-level directory of this distribution.
+ 	 You may not use this file except in compliance with the License.
+ 	 -->
+ 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.dfki.resc28</groupId>
 	<artifactId>igraphstore</artifactId>
