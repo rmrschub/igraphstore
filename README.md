@@ -21,3 +21,9 @@ Contributing
 -
 
 Contributions are very welcome.
+
+
+Third-party Contents
+-
+
+This source distribution includes the third-party items with respective licenses as listed in [THIRD-PARTY.txt]().
