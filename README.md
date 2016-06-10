@@ -26,4 +26,4 @@ Contributions are very welcome.
 Third-party Contents
 -
 
-This source distribution includes the third-party items with respective licenses as listed in [THIRD-PARTY.txt]().
+This source distribution includes the third-party items with respective licenses as listed in the THIRD-PARTY file found in the top-level directory of this distribution.
