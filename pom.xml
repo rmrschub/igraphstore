@@ -31,6 +31,7 @@
           			<version>1.9</version>
 				<configuration>
 					<outputDirectory>${basedir}</outputDirectory>
+					<thirdPartyFilename>THIRD-PARTY</thirdPartyFilename>
 				</configuration>
         		</plugin>
       		</plugins>
