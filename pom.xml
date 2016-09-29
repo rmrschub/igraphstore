@@ -2,6 +2,12 @@
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+	<!--
+ 	 This file is part of IGraphStore. It is subject to the license terms in
+ 	 the LICENSE file found in the top-level directory of this distribution.
+ 	 You may not use this file except in compliance with the License.
+ 	 -->
+ 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.dfki.resc28</groupId>
 	<artifactId>igraphstore</artifactId>
@@ -16,18 +22,39 @@
 
     <build>
         <finalName>graphStore</finalName>
+
+	<pluginManagement>
+		<plugins>
+        		<plugin>
+          			<groupId>org.codehaus.mojo</groupId>
+          			<artifactId>license-maven-plugin</artifactId>
+          			<version>1.9</version>
+				<configuration>
+					<outputDirectory>${basedir}</outputDirectory>
+					<thirdPartyFilename>THIRD-PARTY</thirdPartyFilename>
+				</configuration>
+        		</plugin>
+      		</plugins>
+    	</pluginManagement>
+    	
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.5.1</version>
-                <inherited>true</inherited>
-                <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
+		<plugin>
+        		<groupId>org.codehaus.mojo</groupId>
+        		<artifactId>license-maven-plugin</artifactId>
+        		<version>1.9</version>
+      		</plugin>
+      		
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>2.5.1</version>
+			<inherited>true</inherited>
+			<configuration>
+				<source>1.7</source>
+				<target>1.7</target>
+				<failOnMissingWebXml>false</failOnMissingWebXml>
+			</configuration>
+		</plugin>
             
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -59,7 +86,17 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>  
+    </build>
+    
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<version>1.9</version>
+			</plugin>
+		</plugins>
+	</reporting>
 
 	<dependencies>
 
