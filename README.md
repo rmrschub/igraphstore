@@ -10,11 +10,11 @@ mvn clean install
 ```
 and add a dependency to your project's pom.xml like this
 ```xml
-	<dependency>
-		<groupId>de.dfki.resc28</groupId>
-		<artifactId>igraphstore</artifactId>
-		<version>0.1</version>
-	</dependency>
+<dependency>
+	<groupId>de.dfki.resc28</groupId>
+	<artifactId>igraphstore</artifactId>
+	<version>0.1</version>
+</dependency>
 ```
 
 Contributing
